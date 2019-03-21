@@ -34,4 +34,6 @@ Details can be found in the blog linked below.
 
 
 ## Useful links
+* [result on IBM Studio](https://dataplatform.cloud.ibm.com/analytics/notebooks/v2/81597f8f-8bea-4bef-98c1-9dc1cc2e594c/view?access_token=c6de2f2300a97ba59bd2ebd4a657b22ff92dc84117b133c95c8c06659cfebc99)
+
 * [Blog](https://medium.com/@lihaoyu001/customer-churn-prediction-using-spark-mllib-with-large-scale-dataset-7292c55cc43d) - A blog to describe this prediction.
