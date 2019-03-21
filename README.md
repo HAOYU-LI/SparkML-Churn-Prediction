@@ -26,7 +26,8 @@ IBM watson studio is free to use. You can sign up an account and upload this not
 <img src="./img/ibm-studio.png"><br>
 
 ## Results:
-Details can be found in the blog linked below.
+The dataset is highly imbalanced and several metrics are evaluated in this project. With recall = 1, we successfully predicted all customers that will churn their services. With the improvement of feature extraction and upper-sampling procedures, we can expect a further improvement of precision and f1_score.
+
 * precision =  0.05947955390334572
 * recall =  1.0
 * f1_score =  0.11228070175438597
