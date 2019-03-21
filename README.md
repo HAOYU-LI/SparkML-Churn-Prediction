@@ -9,10 +9,29 @@ Customer churn rate prediction is a very challenging problem and it’s also a v
 * Spark (2.3.2)
 * Cloud Computing platform : AWS EMR, S3 and IBM watson Studio
 
-## libraries:
+## Libraries:
 * spark MLlib
 * spark ml
 * spark sql
+
+## Usage:
+Souce code is contained in a notebook file that locates in src folder. There are two options to run this notebook:
+
+#### Run on local machine:
+You should set up the python and spark environment correspondingly. Then uncomment the following code block to run:
+<img src="./img/local-machine.png"><br>
+
+#### Run on cloud platform:
+IBM watson studio is free to use. You can sign up an account and upload this notebook to run. In the project setup page, be sure to select environment with python (>=3.5) and spark (>=2.3).
+<img src="./img/ibm-studio.png"><br>
+
+## Results:
+Details can be found in the blog linked below.
+* precision =  0.05947955390334572
+* recall =  1.0
+* f1_score =  0.11228070175438597
+* accuracy =  0.8473495187473065
+
 
 ## Useful links
 * [Blog](https://medium.com/@lihaoyu001/customer-churn-prediction-using-spark-mllib-with-large-scale-dataset-7292c55cc43d) - A blog to describe this prediction.
